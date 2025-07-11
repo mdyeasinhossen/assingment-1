@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f0f0f2;
+    
+}
+/* navbar section */
+ul{
+    padding: 50px 100px;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.navbar li a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+    color: #488cfa;
+}
+
+/* banner section */
+.header{
+    background-image: url(./b12a01/Assets/Hero-bg.png);
+    background-size: cover;
+    
+    
+}
+.banner{
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+   
+ .banner-title{
+        font-size: 65px;
+        color: #000000;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+.banner-button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #488cfa;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* main section: */
+main{
+    margin: 0 auto;
+}
+/* action section: */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+.action-image{
+   height: 328px;
+   width: 440px;
+   border-radius: 10%;
+}
+.action-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+}
+.action-text{
+    padding: 20px;
+}
+.light-text{
+    font-weight: 100;
+    color: #b0abab;
+}
+
+.user-container{
+    text-align: center;
+    align-items: center;
+    padding: 50px 100px;
+    border: 1px solid #030303;
+    border-radius: 5%;
+    margin: 50px 100px;
+    background-color: #d5d5de;
+
+}
+.number-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+

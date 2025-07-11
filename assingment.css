@@ -9,7 +9,7 @@ body{
     
 }
 /* navbar section */
-ul{
+.nav-list{
     padding: 50px 100px;
     display: flex;
     font-size: large;
@@ -81,7 +81,7 @@ main{
 }
 .light-text{
     font-weight: 100;
-    color: #b0abab;
+    color: #898989;
 }
 
 .user-container{
@@ -101,4 +101,31 @@ main{
     align-items: center;
     margin-top: 30px;
 }
+
+/* footer section */
+.footer-container{
+    background-color: #ffffff;
+    padding: 50px 100px;
+    text-align: center;
+    
+}
+.logo-size{
+    font-size: 100px;
+    
+font-weight: 700;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: #a19c9c;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    gap: 50px;
+}
+
 

@@ -61,6 +61,7 @@ main{
 }
 /* action section: */
 .action-container{
+    margin-left: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +73,7 @@ main{
    border-radius: 10%;
 }
 .action-title{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
     color: #000000;
 }
@@ -83,7 +84,7 @@ main{
     font-weight: 100;
     color: #898989;
 }
-
+/* user section */
 .user-container{
     text-align: center;
     align-items: center;
@@ -100,6 +101,11 @@ main{
     gap: 50px;
     align-items: center;
     margin-top: 30px;
+}
+.number{
+    font-size: 80px;
+    font-weight: bold;
+    
 }
 
 /* footer section */
@@ -153,9 +159,74 @@ font-weight: 700;
     color: #000000;
     margin-left: 50px;
 }
+.form-button{
+    width: 100%;
+}
 .form{
     margin: 0px 100px;
     width: 30%;
 
 }
+
+/* review section */
+.card{
+    border: 1px solid #ccc;
+    height: 243px;
+    width: 346px;
+    border-radius: 24px;
+    padding: 20px;
+    background-color: #dbd6d6;
+}
+.review-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reviewer{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.reviewer-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.review-container{
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 20px;
+    
+}
+
+/* focus section */
+.focus-container{
+    align-items: center;
+    height: 600px;
+    width: 1000px;
+    padding: 10px 20px;
+    background-color: #e9e5e5f2;
+    margin: 100px 150px 200px 200px;
+    text-align: center;
+    border-radius: 10%;
+}
+.focus-image{
+    height: 300px;
+    width: 800px;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
 

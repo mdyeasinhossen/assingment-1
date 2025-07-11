@@ -128,4 +128,34 @@ font-weight: 700;
     gap: 50px;
 }
 
+/* get in touch section */
+.in-touch-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    text-align: center;
+    
+}
+.form{
+    text-align: left;
+}
+.form input, .form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.in-touch-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 50px;
+}
+.form{
+    margin: 0px 100px;
+    width: 30%;
+
+}
 
